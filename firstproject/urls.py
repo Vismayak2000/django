@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.load_first_page,name='load_first_page'),
     path('load_second_page',views.load_second_page,name='load_second_page'),
+    path('load_third_page',views.load_third_page,name='load_third_page'),
 
 ]

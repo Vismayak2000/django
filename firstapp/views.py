@@ -11,3 +11,6 @@ def load_first_page(request):
 def load_second_page(request):
     return render(request,'second.html')
 
+def load_third_page(request):
+    return render(request,'third.html')
+
